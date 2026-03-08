@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nb-base 
+  description: A Python microservice on the NB platform   
+  links:
+    - url: https://www.redhat.com/en/solutions/trusted-software-supply-chain
+      title: Trusted Secure Supply Chain 
+      icon: dashboard
+      type: admin-dashboard
+  annotations:
+    # ArgoCD apps from this template used tssc-gitops as the grouping
+    argocd/app-selector: tssc/gitops=nb-base
+    backstage.io/kubernetes-id: nb-base 
+    backstage.io/techdocs-ref: dir:. 
+    janus-idp.io/tekton: nb-base
+    quay.io/repository-slug: tssc/nb-base
+  tags: ["python", "pip", "flask", "sscs", "sbom", "acs", "nb-coe"] 
+spec:
+  type: service
+  owner: group:default/tssc 
+  lifecycle: experimental
+ 
