@@ -1,7 +1,7 @@
 """
 NB Analytics Service — Demo API
 FastAPI microservice scaffolded via RHDH Golden Path Template
-Runs in Coder on OpenShift
+Runs in Coder on OpenShift - Testing pipeline 
 """
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,7 +14,7 @@ import datetime
 app = FastAPI(
     title="NB Analytics Service",
     description="Portfolio risk scoring API — scaffolded via RHDH Golden Path Template",
-    version="1.0.0",
+    version="1.0.1",
 )
 
 app.add_middleware(
