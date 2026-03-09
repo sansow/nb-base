@@ -19,6 +19,7 @@ metadata:
     backstage.io/techdocs-ref: dir:. 
     janus-idp.io/tekton: nb-base
     quay.io/repository-slug: tssc/nb-base
+    backstage.io/kubernetes-namespace: tssc-app-development
     #rhdh/acs-deployment: nb-base
     acs/deployment-name: nb-base
   tags: ["python", "pip", "flask", "sscs", "sbom", "acs", "nb-coe"] 
