@@ -14,7 +14,7 @@ import datetime
 app = FastAPI(
     title="NB Analytics Service",
     description="Portfolio risk scoring API — scaffolded via RHDH Golden Path Template",
-    version="1.0.0",
+    version="1.0.1",
 )
 
 app.add_middleware(
