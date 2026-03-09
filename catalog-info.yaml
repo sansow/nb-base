@@ -8,6 +8,10 @@ metadata:
       title: Trusted Secure Supply Chain 
       icon: dashboard
       type: admin-dashboard
+    - url: https://coder-coder.apps.cluster-cnhmj.dynamic.redhatworkshops.io
+      title: Open in Coder
+      icon: dashboard
+      type: website
   annotations:
     # ArgoCD apps from this template used tssc-gitops as the grouping
     argocd/app-selector: tssc/gitops=nb-base
