@@ -20,6 +20,7 @@ metadata:
     janus-idp.io/tekton: nb-base
     quay.io/repository-slug: tssc/nb-base
     backstage.io/kubernetes-namespace: tssc-app-ci
+    backstage.io/kubernetes-label-selector: backstage.io/kubernetes-id=nb-base
     #rhdh/acs-deployment: nb-base
     acs/deployment-name: nb-base
     acs/deployment-namespace: tssc-app-development
