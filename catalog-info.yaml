@@ -15,6 +15,7 @@ metadata:
     backstage.io/techdocs-ref: dir:. 
     janus-idp.io/tekton: nb-base
     quay.io/repository-slug: tssc/nb-base
+    acs/deployment-name: "nb-base"
   tags: ["python", "pip", "flask", "sscs", "sbom", "acs", "nb-coe"] 
 spec:
   type: service
