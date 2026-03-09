@@ -1,0 +1,9 @@
+site_name: NB Analytics Service
+site_description: Portfolio risk scoring API
+repo_url: https://github.com/sansow/nb-base
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
